@@ -18,11 +18,11 @@ class ConvMLP(nn.Module):
         Parameters
         ----------
         in_channels : int
-            3 pour CIFAR-10, 1 pour Fashion-MNIST
+            3 for CIFAR-10, 1 for Fashion-MNIST
         input_size : int
-            32 (CIFAR) ou 28 (Fashion)
+            32 (CIFAR) or 28 (Fashion)
         conv_channels : tuple
-            Nombre de canaux pour chaque conv layer
+            Number of channels for every conv layer
         hidden_dims : tuple
             Sizes of hidden layers (default: 512, 256, 128)
         num_classes : int
